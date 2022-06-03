@@ -1,6 +1,6 @@
 specVersion: 0.0.2
-description: Uniswap is a decentralized protocol for automated token exchange on Ethereum.
-repository: https://github.com/Uniswap/uniswap-v2-subgraph
+description: EmberSwap is a decentralized protocol for automated token exchange on Moonriver.
+repository: https://github.com/solarbeamio/solarbeam-subgraph
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,9 +8,9 @@ dataSources:
     name: Factory
     network: mainnet
     source:
-      address: '0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f'
+      address: '0xE62983a68679834eD884B9673Fb6aF13db740fF0'
       abi: Factory
-      startBlock: 10000834
+      startBlock: 3157542
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
